@@ -1,37 +1,3 @@
-.list-group-item.thin-borders {
-    border-width: 1px;
-}
-
-.border-gray {
-    border-bottom: solid;
-    border-bottom-color: lightgray;
-    border-bottom-width: 1px;
-    border-left: solid;
-    border-left-color: lightgray;
-    border-left-width: 1px;
-    border-right: solid;
-    border-right-color: lightgray;
-    border-right-width: 1px;
-}
-
-.border-gray.rounded-bottom {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.border-gray.rounded-top {
-    border-top: solid;
-    border-top-color: lightgray;
-    border-top-width: 1px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.width-23-percent {
-    width: 23%;
-}
-
-
 .width-70-percent {
     width: 70%;
 }
@@ -50,6 +16,7 @@
 
 .explore-image {
     width: 100%;
+    object-fit: cover;
     height: 450px;
 }
 
@@ -57,15 +24,14 @@
     position: absolute;
     bottom: 5px;
     left: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .explore-small-image {
     border-radius: 10px;
     width: 100px;
     height: 100px;
-    position: relative;
-    right: 15px;    
+    position: relative;   
 }
 
 .avatar-image {
@@ -95,9 +61,14 @@
     border: solid;
     border-radius: 30px;
     border-width: 1px;
-    border-color: lightgray;
+    background-color: white;
     height: 35px;
     width: 92%;
+}
+
+input{
+    background-color: white;
+    color: gray;
 }
 
 .input-no-outline:focus {
@@ -129,4 +100,12 @@
 .small-black-text {
     color: black;
     font-size: 15px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-gray {
+    color: #222;
 }
