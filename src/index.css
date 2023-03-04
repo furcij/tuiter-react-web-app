@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.width-70-percent {
+  width: 70%;
+}
+
+.width-90-percent {
+  width: 90%;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.explore-image {
+  width: 100%;
+  object-fit: cover;
+  height: 450px;
+}
+
+.explore-image-text {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 40px;
+}
+
+.explore-small-image {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  position: relative;   
+}
+
+.avatar-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.no-border {
+  border-width: 0px;
+}
+
+.searchbar {
+  border: solid;
+  border-radius: 30px;
+  border-width: 1px;
+  background-color: white;
+  height: 35px;
+  width: 92%;
+}
+
+input{
+  background-color: white;
+  color: gray;
+}
+
+.input-no-outline:focus {
+  outline: none;
+}
+
+.standard-button {
+  border-radius: 30px;
+  border-width: 0px;
+  height: 40px;
+  color: white;
+}
+
+.standard-button.full-width {
+  width: 100%;
+}
+
+.cog-button {
+  background-color: white;
+  border-width: 0px;
+  padding-right: 0px;
+}
+
+.small-gray-text {
+  color: gray;
+  font-size: 15px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-gray {
+  color: #222;
+}
+
+.wd-tabs li {
+  display: inline;
+}
+
+.wd-tabs {
+  padding-left: 0px;
+}
+
+.wd-selected {
+  border-bottom: 2px blue solid;
+  padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+  bottom: 18px;
+  left: 25px;
+}
+
+.wd-bottom-2 {
+  bottom: 2px;
+}
+
+.wd-bottom-4 {
+  bottom: 4px;
+}
