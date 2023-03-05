@@ -16,17 +16,17 @@ const ExploreComponent = () => {
             </div>
             <ul className="nav nav-pills mb-2">
                 <li className="nav-item">
-                    <a className="nav-link active">For You</a>
+                    <a className="nav-link active" href="index.html">For You</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link inactive">Trending</a>
+                    <a className="nav-link inactive" href="index.html">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link inactive">News</a>
+                    <a className="nav-link inactive" href="index.html">News</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="https://images.prismic.io/igspace/a058d990-edba-41ed-aa13-882d919f44df_Startship+4.jfif?auto=compress%2Cformat" className="w-100" />
+                <img src="https://images.prismic.io/igspace/a058d990-edba-41ed-aa13-882d919f44df_Startship+4.jfif?auto=compress%2Cformat" className="w-100" alt=""/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
