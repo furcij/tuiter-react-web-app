@@ -16,13 +16,13 @@ const ExploreComponent = () => {
             </div>
             <ul className="nav nav-pills mb-2">
                 <li className="nav-item">
-                    <a className="nav-link active" href="index.html">For You</a>
+                    <a className="nav-link active">For You</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link inactive" href="index.html">Trending</a>
+                    <a className="nav-link inactive">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link inactive" href="index.html">News</a>
+                    <a className="nav-link inactive">News</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">
