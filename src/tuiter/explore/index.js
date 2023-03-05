@@ -26,7 +26,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="https://images.prismic.io/igspace/a058d990-edba-41ed-aa13-882d919f44df_Startship+4.jfif?auto=compress%2Cformat" className="w-100" alt=""/>
+                <img src="https://images.prismic.io/igspace/a058d990-edba-41ed-aa13-882d919f44df_Startship+4.jfif?auto=compress%2Cformat" className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
