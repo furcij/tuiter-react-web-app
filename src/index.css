@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.width-20-percent {
+  width: 20%;
+}
+
 .width-70-percent {
   width: 70%;
 }
@@ -134,4 +138,8 @@ input{
 
 .wd-bottom-4 {
   bottom: 4px;
+}
+
+.nav-link.inactive {
+  color: #0d6efd;
 }

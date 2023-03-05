@@ -7,7 +7,7 @@ const WhoToFollowListItem = (
     return (
         <li className="list-group-item pt-2 pb-2 ps-3">
             <img className="float-left avatar-image" src={who.avatarIcon} alt=""></img>
-            <button className="float-right me-3 mt-1 width-23-percent standard-button bg-primary" type="button">
+            <button className="float-right me-3 mt-1 width-20-percent standard-button bg-primary" type="button">
                 Follow
             </button>
             <div>

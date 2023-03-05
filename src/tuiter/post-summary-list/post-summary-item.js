@@ -7,7 +7,6 @@ const PostSummaryItem = (
             "time": "2h",
             "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
             "image": "https://www.pngkey.com/png/detail/13-139837_tesla-motors-logo-png.png",
-            "tuits": "",
         }
     }
 ) => {
