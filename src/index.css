@@ -54,6 +54,16 @@ code {
   border-radius: 25px;
 }
 
+span.tuit-header {
+  position: relative;
+  margin-left: 25px;
+}
+
+.tuit-content {
+  position: relative;
+  margin-left: 65px;
+}
+
 .float-left {
   float: left;
 }
