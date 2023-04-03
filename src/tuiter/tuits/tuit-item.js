@@ -1,11 +1,11 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import TuitStats from "./tuit-stats";
-import { deleteTuit } from "../tuits/tuits-reducer";
+import { deleteTuitThunk } from "../../services/tuits-thunks";
 const TuitItem = ({ tuit }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -19,12 +19,7 @@ const TuitItem = ({ tuit }) => {
             </div>
             <p className="tuit-content me-2">{tuit.tuit}</p>
             <div className="tuit-content">
-                <TuitStats tuit={{
-                    replies: tuit.replies,
-                    retuits: tuit.retuits,
-                    likes: tuit.likes,
-                    liked: tuit.liked
-                }} />
+                <TuitStats tuit={tuit} />
             </div>
         </li>)
 }
