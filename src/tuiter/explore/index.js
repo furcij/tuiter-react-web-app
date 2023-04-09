@@ -17,13 +17,13 @@ const ExploreComponent = () => {
             </div>
             <ul className="nav nav-pills mb-2">
                 <li className="nav-item">
-                    <a className="nav-link active">For You</a>
+                    <a className="nav-link active" href="/tuiter/explore">For You</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link inactive">Trending</a>
+                    <a className="nav-link inactive" href="/tuiter/explore">Trending</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link inactive">News</a>
+                    <a className="nav-link inactive" href="/tuiter/explore">News</a>
                 </li>
             </ul>
             <div className="position-relative mb-2">

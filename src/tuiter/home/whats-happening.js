@@ -9,7 +9,8 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening,
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png",
-            handle: "@NASA"
+            handle: "@NASA",
+            userName: "NASA"
         }
         dispatch(createTuitThunk(newTuit));
     }

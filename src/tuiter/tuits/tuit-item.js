@@ -13,7 +13,7 @@ const TuitItem = ({ tuit }) => {
             <img className="float-left avatar-image" src={tuit.image} alt=""></img>
             <i className="bi bi-x-lg float-right z-index-2" onClick={() => deleteTuitHandler(tuit._id)}></i>
             <div className="tuit-content z-index-1">
-                <b>{tuit.userName} </b>
+                <b>{tuit.userName}</b>
                 <i className="fa fa-check-circle ps-1 pt-1"></i>
                 <span className="small-gray-text ms-1">{tuit.handle} • {tuit.time}</span>
             </div>

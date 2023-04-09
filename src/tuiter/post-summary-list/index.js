@@ -4,11 +4,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { findTuitsThunk } from "../../services/tuits-thunks";
 
 const PostSummaryList = () => {
-  const { posts, loading } = useSelector(state => state.tuitsData);
+  const { tuits, loading } = useSelector(state => state.tuitsData);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(findTuitsThunk())
-  }, [])
+  }, [dispatch])
   return (
     <ul className="list-group">
       {
@@ -19,7 +19,7 @@ const PostSummaryList = () => {
         </li>
       }
       {
-        posts.map(post =>
+        tuits.map(post =>
           <PostSummaryItem
             key={post._id} post={post} />)
       }
