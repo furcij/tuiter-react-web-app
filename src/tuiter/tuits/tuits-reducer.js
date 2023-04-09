@@ -6,12 +6,6 @@ const initialState = {
     loading: false
 }
 
-const currentUser = {
-    "userName": "NASA",
-    "handle": "@nasa",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png",
-};
-
 const tuitsSlice = createSlice({
     name: 'tuits',
     initialState,
